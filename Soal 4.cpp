@@ -8,7 +8,13 @@ int main(){
 cout<<"PROGRAM MENENTUKAN JENIS BILANGAN"<<endl;
 	cout<<""<<endl;
 	cout<<"Input Bilangan : ";cin>>x;
-	cout<<""<<endl;	
+	cout<<""<<endl;
+	
+
+	if (x < 0)
+	{
+		cout<<"yang anda input adalah bilangan negatif"<<endl;
+	}		
 }
 
 
